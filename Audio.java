@@ -13,7 +13,7 @@ public class Audio{
   throws Exception
   {
     // open the sound file as a Java input stream
-    String gongFile = "C:\\Users\\Nicholas\\Documents\\NetBeansProjects\\AudioTest\\"+Cries;
+    String gongFile = "C:\\Users\\Nicholas\\Documents\\NetBeansProjects\\Pokedex\\"+Cries;
     InputStream in = new FileInputStream(gongFile);
 
     // create an audiostream from the inputstream
